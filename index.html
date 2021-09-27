@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Preloader-->
+    <div class="preloader">
+        <div class="cssload-thecube">
+            <div class="cssload-cube cssload-c1"></div>
+            <div class="cssload-cube cssload-c2"></div>
+            <div class="cssload-cube cssload-c4"></div>
+            <div class="cssload-cube cssload-c3"></div>
+        </div>
+    </div>
+    <!--Header-->
+    <header class="header">
+        <div class="container">
+            <div class="content-menu">
+                <a href="./index.html" class="logo">News App</a>
+                <div class="search">
+                    <form>
+                        <button class="btn-search" type="submit"><img src="./img/search.png" alt="search"></button>
+                        <input class="input-search" type="text" placeholder="Type something to start search...">
+                    </form>
+                </div>
+
+                <div class="down-menu">
+                    <li><a href="#" class="submenu-link">Categories</a>
+                        <ul class="submenu">
+                            <div class="categories">
+                                <ul class="list-left">
+                                    <li><a href="index.html?category=sport">Sport</a></li>
+                                    <li><a href="index.html?category=world">World</a></li>
+                                    <li><a href="index.html?category=covid">Covid</a></li>
+                                    <li><a href="index.html?category=business">Business</a></li>
+                                </ul>
+                                <ul class="list-right">
+                                    <li><a href="index.html?category=politics">Politics</a></li>
+                                    <li><a href="index.html?category=science">Science</a></li>
+                                    <li><a href="index.html?category=religion">Religion</a></li>
+                                    <li><a href="index.html?category=health">Health</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </li>
+                </div>
+                <div class="trend">
+                    <a href="index.html?category=trending">⚡️ Trending news</a>
+                </div>
+                <div class="burger">
+                    <span class="burger-line first"></span>
+                    <span class="burger-line second"></span>
+                    <span class="burger-line third"></span>
+                    <span class="burger-line fourth"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="content container">
+    </section>
+    <div class="container">
+        <button class="scroll-up" >Scroll to top <img src="./img/arrow-down-circle-fill 1.png" alt="Scroll top"></button>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-content"><span>News App</span> 2021 copyright all rights reserved</p>
+        </div>
+    </footer>
+    
+    <script src="./js/burger.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
